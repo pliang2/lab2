@@ -27,5 +27,36 @@ body {
 	margin-right: 20px;
 }
 .company {
+	font-family: 'Boogaloo', sans-serif;
+	font-size: 36px;
 	color: #116189;
+}
+.motto {
+	padding: 10px;
+	font-style: italic;
+	font-size: 120%;
+}
+
+nav ul {
+	background-color: #D74710;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+nav li {
+	display: inline-block;
+}
+nav a {
+	display: inline-block;
+	padding: 10px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 110%;
+}
+nav a:link,
+nav a:visited {
+	text-decoration: none;
+}
+nav a:hover {
+	background-color: #FF9D45;
+	border-radius: 5px;
 }
