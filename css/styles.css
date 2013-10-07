@@ -13,6 +13,9 @@ body {
     padding: 10px;
 }
 
+p {
+	padding: 10px;
+}
 .content {
 	margin: 0 auto;
 	width: 80%;
@@ -30,9 +33,9 @@ body {
 	font-family: 'Boogaloo', sans-serif;
 	font-size: 36px;
 	color: #116189;
+	margin-bottom: -10px;
 }
 .motto {
-	padding: 10px;
 	font-style: italic;
 	font-size: 120%;
 }
@@ -59,4 +62,40 @@ nav a:visited {
 nav a:hover {
 	background-color: #FF9D45;
 	border-radius: 5px;
+}
+.factory {
+	float: left;
+	margin-right: 10px;
+}
+.shipping {
+	float: right;
+	margin-left: 10px;
+}
+.footer {
+	border-top: thin solid #A9A9A9;
+	font-size: 80%;
+	font-style: italic;
+}
+.mail {
+	text-decoration: none;
+}
+.mail:hover {
+	text-decoration: underline;
+}
+h2 {
+	padding: 10px;
+	font-size: 28px;
+	font-weight: bold;
+	color: #116189;
+}
+.team-member {
+	float: left;
+	margin-right: 10px;
+}
+.name {
+	font-weight: bold;
+	color: #116189;
+}
+.last-paragraph {
+	margin-bottom: 40px;
 }
